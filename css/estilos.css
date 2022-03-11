@@ -1,0 +1,51 @@
+body{
+    background-image: url("https://i.blogs.es/d8a22c/poeta_lunera_46878434_357901494940657_8644354556054754798_n/1366_2000.jpg");
+    background-attachment: fixed;
+    background-repeat: none;
+    display: block;
+}
+
+
+#title{
+    text-align: center;
+    background-color: aquamarine;
+    background-color: brown;
+    border-radius: 10px;
+    padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 3px 3px 5px burlywood;
+
+}
+
+#description{
+    text-align: justify;
+    color: aliceblue;
+    text-decoration: underline;
+    font-size: 20px;
+    text-shadow: 2px 2px 2px black;
+}
+
+form{
+    background-color: rgba(0, 0, 0, 0.485);
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px dotted blueviolet;
+}
+
+label{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    display: block;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+input{
+    
+    padding: 10px;
+
+}
+
+
+

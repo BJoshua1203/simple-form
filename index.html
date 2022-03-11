@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <h1 id="title">Registro al evento</h1>
+
+    <p id="description">
+            Este formulario nos ayudará a tener los datos
+            de tu participación en el evento del que
+            formaŕas parte, es importante llenar todos
+            los campos para que tengamos el registro correcto
+
+    </p>
+
+
+    <form action="" id="survey-form">
+        <label for="name" id="name-label">Nombre
+        <input type="text" id="name" placeholder="Introduce tu nombre" required ></label>
+        
+        <label for="email" id="email-label">email
+        <input type="email" id="email" placeholder="introduce tu email" required ></label>
+        
+        <label for="number" id="number-label">Edad
+        <input type="number" name="" id="number" min="8" max="30" placeholder="edad">
+        </label>
+        
+        <label for="tel" id="tel-label">Teléfono
+        <input type="tel" maxlength="10" placeholder="Teléfono">
+
+        
+        <label for="algo"> Soy
+            
+        <select name="drop" id="dropdown">
+            <option value="null">Selecciona</option>
+            <option value="M">Mujer</option>
+            <option value="H">Hombre</option>
+        </select>
+        <br><br>
+        <section>
+        <label for="radio-group">¿Traerás a alguien a este evento?
+        <label for="radio-group"><input type="radio" name="invitados" id="" value="1">Sí</label>
+        <label for="radio-group"><input type="radio" name="invitados" id="" value="2"> Tal vez</label>
+        <label for="radio-group"><input type="radio" name="invitados" id="" value="3">No</label>
+        </label>
+
+        </section>
+        <br>
+
+        <section>
+            <p>
+                ¿Qué temas te interesan?
+            </p>
+            <label for="check">Anatomía <input type="checkbox" value="val1"></label>
+            <label for="check">Física <input type="checkbox" value="val1"></label>
+            <label for="check">Química <input type="checkbox" value="val1"></label>
+            <label for="check">Astrinomía <input type="checkbox" value="val1"></label>
+            <label for="check">Mecánica <input type="checkbox" value="val1"></label>
+            <label for="check">Psicología <input type="checkbox" value="val1"></label>
+            <label for="check">Diseño <input type="checkbox" value="val1"></label>
+            <label for="check">Arquitectura <input type="checkbox" value="val1"></label>
+            <label for="check">Literatura <input type="checkbox" value="val1"></label>
+
+        </section>
+
+        <br>
+
+        <textarea name="coments" id="coments" cols="30" rows="10" placeholder="Deja un comentario"></textarea>
+        <br>
+        <input type="submit" id="submit"> 
+    </form>
+</body>
+</html>
